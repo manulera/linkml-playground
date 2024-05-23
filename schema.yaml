@@ -1,0 +1,30 @@
+---
+id: https://w3id.org/genestorian/dummy-example
+name: dummy-example
+title: dummy-example
+description: |-
+  A dummy example
+license: MIT
+
+prefixes:
+  dummy-example: https://w3id.org/genestorian/dummy-example/
+default_prefix: dummy-example
+default_range: string
+
+imports:
+  - linkml:types
+
+classes:
+  Room:
+    attributes:
+      room_name:
+        range: string
+      comment:
+        range: string
+
+  RoomContainer:
+    tree_root: true
+    attributes:
+      rooms:
+        range: Room
+        multivalued: true

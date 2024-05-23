@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "linkml-playground"
+version = "0.1.0"
+description = ""
+authors = ["Manuel Lera-Ramirez <manulera14@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+linkml = "^1.7.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

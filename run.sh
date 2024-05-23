@@ -1,0 +1,1 @@
+linkml-validate --schema schema.yaml -C Room rooms.tsv
